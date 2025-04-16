@@ -9,7 +9,7 @@ use std::alloc::Layout;
 pub const ID: Pubkey = solana_pubkey::pubkey!("gatorgatorgatorgatorgatorgatorgatorgatorgat");
 pub const SCRATCH: Pubkey = solana_pubkey::pubkey!("scratchscratchscratchscratchscratchscratchs");
 
-/// The layout required for a len 4 vector of type u64
+/// The layout required for a len 8 vector of type u64
 #[allow(unused)]
 const VEC_U64_LAYOUT: Layout = unsafe {
     Layout::from_size_align_unchecked(
