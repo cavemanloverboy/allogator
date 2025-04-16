@@ -1,0 +1,6 @@
+[workspace]
+members = ["allogator", "irwin", "scratch"]
+resolver = "2"
+
+[workspace.dependencies]
+allogator = { path = "allogator" }
